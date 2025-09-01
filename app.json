@@ -1,0 +1,22 @@
+{
+    "name": "bmb Pairing",
+    "description": "BOYKAX-TECH WA bot, Created by MidKing Tech",
+    "logo": "https://i.postimg.cc/4NdSqms8/MidKing.jpg",
+    "repository": "https://github.com/Joshuamambo1/Boykaxd-Session/tree/main",
+    "keywords": ["BOYKAX-TECH"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
